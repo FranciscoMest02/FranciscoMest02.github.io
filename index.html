@@ -30,17 +30,17 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <div class = "container">
                     <div class = "row">
-                        <div class = "col-lg-3">
-                            <span class="name-title">Francisco Mestizo</span>
+                        <div class = "col-lg-5">
+                            <span class="name-title">Francisco Mestizo's portfolio</span>
                         </div>
 
-                        <div class = "col-7">
+                        <div class = "col-5">
                             <ul class="navbar-nav right">
-                                <li class="nav-item active"><a class="nav-link" href="#welcome-div"><span class="purple-link">Home</span></a></li>
+                                <li class="nav-item active"><a class="nav-link" href="#home"><span class="purple-link">Home</span></a></li>
                                 <li class="nav-item active"><a class="nav-link" href="#aboutme-div"><span class="purple-link">About</span></a></li>
-                                <li class="nav-item active"><a class="nav-link" href="#experience-div"><span class="purple-link">Résumé</span></a></li>
+                                <li class="nav-item active"><a class="nav-link" href="#experience-div"><span class="purple-link">Experience</span></a></li>
                                 <li class="nav-item active"><a class="nav-link" href="#projects-div"><span class="purple-link">Projects</span></a></li>
-                                <li class="nav-item active"><a class="nav-link"><span class="purple-link">Contacts</span></a></li>
+                                <li class="nav-item active"><a class="nav-link" href="#contact-div"><span class="purple-link">Contact</span></a></li>
                             </ul>
                         </div>
 
@@ -55,18 +55,18 @@
         <!-- Termina navbar -->
 
         <!-- Inicia contenido -->
-        <div class="content">
+        <div class="content" id="home">
             <!-- Titles and presentation -->
             <div id="welcome-div" class="container row">
                 <div class="col-md-10">
                     <h1 id="title">Welcome to my portfolio</h1>
                     <span id="subtitle">Software developer</span>
-                    <p class="text-paragraph col-9">My name is Francisco Mestizo. Currently I'm on my third year of B.S. 
+                    <p class="text-paragraph col-8">My name is Francisco Mestizo. Currently I'm on my third year of B.S. 
                     Computer Science and Technology graduating on 2024. Here you can 
                     browse some of the projects I have done</p>
                     
-                    <button type="button" class="btn btn-primary btn-lg btn-purple">Projects</button>
-                    <button type="button" class="btn btn-primary btn-lg btn-purple" style="margin-left: 3em;">Contact me</button>
+                    <button type="button" class="btn btn-primary btn-lg btn-purple" href="#projects-div">Projects</button>
+                    <button type="button" class="btn btn-primary btn-lg btn-purple" href="#contact-div" style="margin-left: 3em;">Contact me</button>
                     <a href="https://www.vecteezy.com/free-vector/software-development-isometric"><img src="img/img_welcome.jpg" id="welcome-img"></a>    
                 </div>
             </div>
@@ -76,9 +76,12 @@
             <div id="aboutme-div" class="container row">
                 <h1 id="title" class="center-title">About me</h1>
                 <div class="col-8">
-                    <p class="text-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla varius 
-                    ac dui at hendrerit. Etiam tristique bibendum lacus, scelerisque sagittis mauris. Nam suscipit 
-                    iaculis ornare. Curabitur semper velit id metus venenatis molestie. Praesent tincidunt, erat.</p>
+                    <p class="text-paragraph">I'm a college student that likes the use of technology to create innovative and
+                    creative solutions to different problems. I also love to learn about almost any topic. Sometimes that helps
+                    me to join different topics to create solutions. I'm a good team worker and leader, good listener, proactive
+                    and rational. I also have a lot of different hobbies. Some of them are reading, playing tenis, swimming, going
+                    to the movies and spending time with my friends (but there are many others listed below).
+                    </p>
                     <span id="subtitle">My interests</span>
                     <div class="container row">
                         <div class="col-6">
@@ -110,39 +113,35 @@
                 <h1 id="title" class="center-title">Experience</h1>
                 <div class="col-8">
                     <span id="subtitle">Education</span>
-                    <p class="text-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla varius 
-                    ac dui at hendrerit. Etiam tristique bibendum lacus, scelerisque sagittis mauris. Nam suscipit 
-                    iaculis ornare. Curabitur semper velit id metus venenatis molestie. Praesent tincidunt, erat.</p>
+                    <p class="text-paragraph">I think that the most efficient way to learn new things is thru real problems. That's
+                        why I like the recent schoolar projects I have recently developed with my teammates. Most of them are focused
+                        on real problems that enterpises have set out us. That's when we use our creative thinking to solve this problems
+                        and our technical thinking to use technology as our principal tool. This projects are listed down on the Projects section.   
+                    </p>
+                    <span id="subtitle">Soft skills</span>
+                    <ul>
+                        <li class="interests-list"><i class="fa-solid fa-gears fa-xl"></i> <span class="text-icons">Logical and computational thinking</span> </li>
+                        <li class="interests-list"><i class="fa-solid fa-people-group fa-xl"></i> <span class="text-icons">Team work</span> </li>
+                        <li class="interests-list"><i class="fa-solid fa-hands-holding-child fa-xl"></i> <span class="text-icons">Customer service</span> </li>
+                        <li class="interests-list"><i class="fa-solid fa-bullhorn fa-xl"></i> <span class="text-icons">Public speaking</span> </li>
+                        <li class="interests-list"><i class="fa-solid fa-triangle-exclamation fa-xl"></i> <span class="text-icons">Problem solving</span> </li>
+                    </ul>
                 </div>
                 <div class="col-4">
-                    <span id="subtitle">Skills</span>
+                    <span id="subtitle">Technical skills</span>
                     <ul>
-                        <li class="interests-list"><i class="fa-solid fa-person-hiking fa-xl"></i> <span class="text-icons">Hiking</span> </li>
-                        <li class="interests-list"><i class="fa-solid fa-guitar fa-xl"></i> <span class="text-icons">Listening music</span> </li>
-                        <li class="interests-list"><i class="fa-solid fa-gamepad fa-xl"></i> <span class="text-icons">Play videogames</span> </li>
-                        <li class="interests-list"><i class="fa-solid fa-dice fa-xl"></i> <span class="text-icons">Playing boardgames</span> </li>
+                        <li class="interests-list"><i class="fa-brands fa-vuejs fa-xl"></i> <span class="text-icons">Vue.js</span></li>
+                        <li class="interests-list"><i class="fa-brands fa-python fa-xl"></i> <span class="text-icons">Python</span> </li>
+                        <li class="interests-list"><i class="fa-regular fa-copyright fa-xl"></i> <span class="text-icons">C++</span> </li>
+                        <li class="interests-list"><i class="fa-brands fa-react fa-xl"></i> <span class="text-icons">React.js</span> </li>
+                        <li class="interests-list"><i class="fa-brands fa-node-js fa-xl"></i> <span class="text-icons">Node.js</span> </li>
+                        <li class="interests-list"><i class="fa-solid fa-leaf fa-xl"></i> <span class="text-icons">MongoDB</span> </li>
+                        <li class="interests-list"><i class="fa-solid fa-database fa-xl"></i> <span class="text-icons">SQL</span> </li>
+                        <li class="interests-list"><i class="fa-brands fa-unity fa-xl"></i> <span class="text-icons">Unity</span> </li>
+                        <li class="interests-list"><i class="fa-brands fa-html5 fa-xl"></i> <span class="text-icons">Html</span> </li>
+                        <li class="interests-list"><i class="fa-brands fa-bootstrap fa-xl"></i> <span class="text-icons">Bootstrap</span> </li>
                     </ul>
                 </div>
-
-                <details>
-                    <summary id="subtitle">Experience</summary>
-                    <ul>
-                        <li class="interests-list"><i class="fa-solid fa-person-hiking fa-xl"></i> <span class="text-icons">Hiking</span> </li>
-                        <li class="interests-list"><i class="fa-solid fa-guitar fa-xl"></i> <span class="text-icons">Listening music</span> </li>
-                        <li class="interests-list"><i class="fa-solid fa-gamepad fa-xl"></i> <span class="text-icons">Play videogames</span> </li>
-                        <li class="interests-list"><i class="fa-solid fa-dice fa-xl"></i> <span class="text-icons">Playing boardgames</span> </li>
-                    </ul>
-                </details>
-                <details>
-                    <summary id="subtitle">Projects</summary>
-                    <ul>
-                        <li class="interests-list"><i class="fa-solid fa-person-hiking fa-xl"></i> <span class="text-icons">Hiking</span> </li>
-                        <li class="interests-list"><i class="fa-solid fa-guitar fa-xl"></i> <span class="text-icons">Listening music</span> </li>
-                        <li class="interests-list"><i class="fa-solid fa-gamepad fa-xl"></i> <span class="text-icons">Play videogames</span> </li>
-                        <li class="interests-list"><i class="fa-solid fa-dice fa-xl"></i> <span class="text-icons">Playing boardgames</span> </li>
-                    </ul>
-                </details>
-
             </div>
             <!-- Termina Experience -->
 
@@ -163,14 +162,23 @@
                             <!-- Start of the project card -->
                             <div class="projects-card">
                                 <div class="container row">
-                                    <p class="projects-subtitle">Pocket Garden</p>
-                                    <div class="col-4">
-                                        <img src="img/franciscoM.jpg" class="project-image" alt="Test">
+                                    <p class="projects-subtitle">Pocket Garden: Automatic greenhouse</p>
+                                    <p>
+                                        With this project I rooted my knowledge about IoT using sensors and a NodeMCU. 
+                                        This greenhouse uses internet to automatically water plants.
+                                    </p>
+                                    <div class="col-6">
+                                        <img src="img/pocketGarden.jpg" class="project-image-horizontal" alt="Test">
                                     </div>
-                                    <div class="col-8">
-                                        <p class="text-paragraph">This is the description of the project. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla varius 
-                                        ac dui at hendrerit.</p>
-                                        <button type="button" class="btn btn-primary btn-lg btn-purple"><i class="fa-solid fa-circle-info"></i>Learn more</button>
+                                    <div class="col-6">
+                                        <p class="projects-frameworks">
+                                            Developed using:
+                                        </p>
+                                        <p>
+                                            <span class="projects-icon"><i class="fa-solid fa-microchip fa-2x" title="NodeMCU"></i></span>
+                                            <span class="projects-icon"><i class="fa-solid fa-database fa-2x" title="Google Firebase"></i></span>
+                                        </p>
+                                        <button type="button" class="btn btn-primary btn-lg btn-purple"><i class="fa-solid fa-circle-info" style="margin-right: 0.2em;"></i> More info</button>
                                     </div>
                                 </div>
                             </div>
@@ -181,13 +189,24 @@
                             <div class="projects-card">
                                 <div class="container row">
                                     <p class="projects-subtitle">Covid19 Multiagent simulation</p>
-                                    <div class="col-4">
-                                        <img src="img/franciscoM.jpg" class="project-image" alt="Test">
+                                    <p>
+                                        I learned to use Python's Mesa library and Unity for this project. 
+                                        We wanted to improve efficiency for the vaccinations modules, 
+                                        so governments can vaccinate more people faster.  Changing parameters 
+                                        generates a different simulation.
+                                    </p>
+                                    <div class="col-6">
+                                        <img src="img/multiagentSimulation.jpg" class="project-image-horizontal" alt="Test">
                                     </div>
-                                    <div class="col-8">
-                                        <p class="text-paragraph">This is the description of the project. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla varius 
-                                        ac dui at hendrerit.</p>
-                                        <button type="button" class="btn btn-primary btn-lg btn-purple"><i class="fa-solid fa-circle-info"></i>Learn more</button>
+                                    <div class="col-6">
+                                        <p class="projects-frameworks">
+                                            Developed using:
+                                        </p>
+                                        <p>
+                                            <span class="projects-icon"><i class="fa-brands fa-python fa-2x" title="Python"></i></span>
+                                            <span class="projects-icon"><i class="fa-solid fa-brands fa-unity fa-2x" title="Unity"></i></span>
+                                        </p>
+                                        <button type="button" class="btn btn-primary btn-lg btn-purple"><i class="fa-solid fa-circle-info" style="margin-right: 0.2em;"></i> More info</button>
                                     </div>
                                 </div>
                             </div>
@@ -198,17 +217,30 @@
                             <div class="projects-card">
                                 <div class="container row">
                                     <p class="projects-subtitle">Arca Continental's website</p>
-                                    <div class="col-4">
-                                        <img src="img/franciscoM.jpg" class="project-image" alt="Test">
+                                    <p>
+                                        We developed a web app for Arca Continental. With this they can implement the TWI metodology to their processes.
+                                        They also wanted this page to verify that their workers learned in their TWI courses. 
+                                        We used React for the front-end. For the back-end we developed 
+                                        using MySQL and Node.js. 
+                                    </p>
+                                    <div class="col-6">
+                                        <img src="img/arcaWebpage.jpeg" class="project-image-horizontal" alt="Test">
                                     </div>
-                                    <div class="col-8">
-                                        <p class="text-paragraph">This is the description of the project. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla varius 
-                                        ac dui at hendrerit.</p>
-                                        <button type="button" class="btn btn-primary btn-lg btn-purple"><i class="fa-solid fa-circle-info"></i>Learn more</button>
+                                    <div class="col-6">
+                                        <p class="projects-frameworks">
+                                            Developed using:
+                                        </p>
+                                        <p>
+                                            <span class="projects-icon"><i class="fa-brands fa-react fa-2x" title="React"></i></span>
+                                            <span class="projects-icon"><i class="fa-brands fa-node-js fa-2x" title="Node.js"></i></span>
+                                            <span class="projects-icon"><i class="fa-solid fa-brands fa-unity fa-2x" title="Unity"></i></span>
+                                            <span class="projects-icon"><i class="fa-solid fa-database fa-2x" title="MySQL"></i></span>
+                                        </p>
+                                        <button type="button" class="btn btn-primary btn-lg btn-purple"><i class="fa-solid fa-circle-info" style="margin-right: 0.2em;"></i> More info</button>
                                     </div>
                                 </div>
-                                <!-- End of the project card -->
                             </div>
+                            <!-- End of the project card -->
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -223,6 +255,26 @@
             </div>
             <!-- Termina Projects -->
 
+            <!-- Contact -->
+            <div id="contact-div" class="container row">
+                <h1 id="title" class="center-title">Contact</h1>
+                <div class="col-6">
+                    <span id="subtitle">Résumé</span>
+                    <p class="text-paragraph">Here you can download my résumé if you are interested</p>
+                    <button type="button" class="btn btn-primary btn-lg btn-purple">Download</button>
+                </div>
+                <div class="col-6">
+                    <span id="subtitle">Contact info</span><br/>
+                    <p class="text-paragraph">And here are some links where you can find more about me and the things I have done</p>
+                    <a href="https://www.linkedin.com/in/francisco-mestizo-hernandez" target = "_blank"><img class = "logo" src = "img/linkedinLogo.png" alt="Linkedin"/>
+                    <span class="text-paragraph">Francisco Mestizo Hernández</span><br/><br/></a>
+                    <a href="https://www.github.com/FranciscoMest02" target = "_blank"><img class = "logo" src = "img/githubLogo.png" alt="Github"/>
+                    <span class="text-paragraph">FranciscoMest02</span><br/><br/></a>
+                    <a href="mailto:A01731549@tec.mx"><span class="text-paragraph"><i class="fa-solid fa-envelope fa-xl" style="margin-right: 0.7em;"></i>A01731549@tec.mx</span></a>
+                </div>
+            </div>
+            <!-- Termina Contact -->
+
             <!-- Footer - Copyright -->
             <footer>
                 <span>Copyright 2022. Francisco Mestizo</span>
@@ -232,3 +284,63 @@
         <!-- Termina contenido -->
     </body>
 </html>
+
+<!-- Templates -->
+
+<!-- Vertical image card -->
+<!-- Start of the project card -->
+<!--
+<div class="projects-card">
+    <div class="container row">
+        <p class="projects-subtitle">Pocket Garden</p>
+        <div class="col-4">
+            <img src="img/pocketGarden.jpg" class="project-image-vertical" alt="Test">
+        </div>
+        <div class="col-8">
+            <p class="text-paragraph">
+                With this project I rooted my knowledge about IoT using sensors and a NodeMCU. 
+                This greenhouse uses internet to automatically water plants.
+            </p>
+            <p class="projects-frameworks">
+                Developed using:
+            </p>
+            <p>
+                <span class="projects-icon"><i class="fa-solid fa-microchip fa-2x" title="NodeMCU"></i></span>
+                <span class="projects-icon"><i class="fa-solid fa-database fa-2x" title="Google Firebase"></i></span>
+            </p>
+            <button type="button" class="btn btn-primary btn-lg btn-purple"><i class="fa-solid fa-circle-info" style="margin-right: 0.2em;"></i> More info</button>
+        </div>
+    </div>
+</div>
+-->
+<!-- End of the project card -->
+
+<!-- Hotizontal image card -->
+<!-- Start of the project card -->
+<!--
+<div class="projects-card">
+    <div class="container row">
+        <p class="projects-subtitle">Covid19 Multiagent simulation</p>
+        <p>
+            I learned to use Python's Mesa library and Unity for this project. 
+            We wanted to improve efficiency for the vaccinations modules, 
+            so governments can vaccinate more people faster.  Changing parameters 
+            we can see how the simuation changes.
+        </p>
+        <div class="col-6">
+            <img src="img/multiagentSimulation.jpg" class="project-image-horizontal" alt="Test">
+        </div>
+        <div class="col-6">
+            <p class="projects-frameworks">
+                Developed using:
+            </p>
+            <p>
+                <span class="projects-icon"><i class="fa-brands fa-python fa-2x" title="Python"></i></span>
+                <span class="projects-icon"><i class="fa-solid fa-brands fa-unity fa-2x" title="Unity"></i></span>
+            </p>
+            <button type="button" class="btn btn-primary btn-lg btn-purple"><i class="fa-solid fa-circle-info" style="margin-right: 0.2em;"></i> More info</button>
+        </div>
+    </div>
+</div>
+-->
+<!-- End of the project card -->
